@@ -1,0 +1,9 @@
+name = Resteasy Genre
+description = This feature provides the genre taxonomy for week 4 of the Rest Easy Series.
+core = 7.x
+package = Resteasy
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = taxonomy_genre
